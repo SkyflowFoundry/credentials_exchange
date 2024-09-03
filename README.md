@@ -1,4 +1,6 @@
-This project uses a jwt acces token taken by auth0 in order to generate a skyflow bearer token. It can be helpful for potential customers new to the skyflow API, and needing to see how it works while using their previous authentication methods. 
+This project uses a jwt access token taken by auth0 in order to generate a skyflow bearer token. It can be helpful for potential customers new to the skyflow API, and needing to see how it works while using their previous authentication methods. 
+
+DESCRIPTION: This program requires a auth0 token in client.js, which then is used in main.go under the method generateBearerToken. It then requires skyflow credentials, which will be inputted in credentialsPath, to translate and display then skyflow bearer token generated from the code.
 
 TECH USED: Javascript, Go
 
